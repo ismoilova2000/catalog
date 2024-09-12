@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center ;
+gap: 15px;
+}
+
+.card{
+  text-align: center;
+  border: 1px solid black;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  padding: 10px;
+  img{
+    max-width: 350px;
+  }
+
+  h3{
+    font-size: 30px;
+  }
+
+  p{
+    font-size: 20px;
+  }
+
+
+}
